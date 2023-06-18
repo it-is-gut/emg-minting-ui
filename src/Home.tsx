@@ -427,6 +427,10 @@ const candyMachinOps = {
       list: require("./allowlists/og_allowlist.json"),
       groupLabel: "OG",
     },
+    {
+      list: require("./allowlists/wl_allowlist.json"),
+      groupLabel: "WL",
+    },
   ],
 };
 const Home = (props: HomeProps) => {
